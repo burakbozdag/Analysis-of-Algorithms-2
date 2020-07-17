@@ -1,0 +1,5 @@
+When the loop for min-max algorithm continues, n decreases by 2, e.g. n, n-2, n-4, ..., 0.
+Sum of these values  is: n * (n - 1) / 2 -> O(n^2)
+Min-max algorithm covers the half of the overall data to sort.
+Merge sort has the time complexity of O(n * log(n)).
+(n * log(n) + n^2) / 2 -> O(n^2) is the worst case time complexity of this program.

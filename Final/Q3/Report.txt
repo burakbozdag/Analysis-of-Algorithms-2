@@ -1,0 +1,14 @@
+Bellman-Ford and Floyd-Warshall both use dynamic programming but Dijkstra uses greedy approach.
+
+Time complexity of these algorithms: (V: vertices, E: edges)
+
+Dijkstra:       O(ElogV)
+Bellman-Ford:   O(VE)
+Floyd-Warshall: O(V^3)
+
+Floyd-Warshall is used for finding all source shortest path, while Dijkstra and Bellman-Ford are used for finding single source shortest path.
+
+Bellman-Ford and Floyd-Warshall can be used in a distributed system (with complex data structures, maps, etc.).
+
+Dijkstra cannot work with edges with negative weights, but this problem can be eliminated by finding the lowest weight among edges and incrementing them by the absolute value of this number.
+
